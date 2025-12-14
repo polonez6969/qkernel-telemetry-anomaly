@@ -208,7 +208,7 @@ pip install -e .
   title={Quantum Kernel Telemetry Anomaly Detection},
   author={Altman, Christopher},
   year={2025},
-  version={0.2.0},
+  version={0.3.1},
   url={https://github.com/christopher-altman/qkernel-telemetry-anomaly}
 }
 ```
