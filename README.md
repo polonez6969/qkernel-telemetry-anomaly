@@ -47,21 +47,69 @@ Anomalies in these systems often manifest as coherent drifts, impulsive deviatio
 
 ---
 
+## Math Snapshot (Kernel + Decision Rule)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20%5Cpsi(x)%3DU_%5Cphi(x)%5C,%7C0%5Crangle%5E%7B%5Cotimes%20n%7D">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Cpsi(x)%3DU_%5Cphi(x)%5C,%7C0%5Crangle%5E%7B%5Cotimes%20n%7D" alt="equation">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20K(x,x')%3D%7C%5Clangle%5Cpsi(x)%7C%5Cpsi(x')%5Crangle%7C%5E2%20%5Cquad%20%5Ctext%7Bfidelity%20kernel%7D">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20K(x,x')%3D%7C%5Clangle%5Cpsi(x)%7C%5Cpsi(x')%5Crangle%7C%5E2%20%5Cquad%20%5Ctext%7Bfidelity%20kernel%7D" alt="equation">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20f(x)%3D%5Coperatorname%7Bsign%7D%5Cleft(%5Csum_i%5Calpha_i%20K(x_i,x)-%5Crho%5Cright)%20%5Cquad%20%5Ctext%7Bkernel%20SVM/one-class%20form%7D">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20f(x)%3D%5Coperatorname%7Bsign%7D%5Cleft(%5Csum_i%5Calpha_i%20K(x_i,x)-%5Crho%5Cright)%20%5Cquad%20%5Ctext%7Bkernel%20SVM/one-class%20form%7D" alt="equation">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20K%3DV%5CLambda%20V%5E%5Ctop%2C%20%5Cquad%20%5Ctext%7Bdiagnostics%3A%20spectrum%2C%20conditioning%2C%20effective%20dimension%7D">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20K%3DV%5CLambda%20V%5E%5Ctop%2C%20%5Cquad%20%5Ctext%7Bdiagnostics%3A%20spectrum%2C%20conditioning%2C%20effective%20dimension%7D" alt="equation">
+  </picture>
+</p>
+
+---
+
+## Pipeline
+
+```mermaid
+flowchart TD
+  A["Synthetic telemetry"] --> B["Classical features"]
+  B --> C["Quantum feature map"]
+  C --> D["Kernel matrix"]
+  D --> E["One class SVM"]
+  E --> F["ROC AUC diagnostics"]
+```
+---
+
 ## Method Summary
 
-**Data Generation**  
+**Data Generation**
 Synthetic telemetry windows are generated from a low-dimensional, phase-coupled dynamical model with controlled injection of structured anomalies.
 
-**Feature Representation**  
+**Feature Representation**
 Per-channel summary statistics are encoded into quantum feature maps producing pure quantum states.
 
-**Kernel Construction**  
+**Kernel Construction**
 Similarity is defined via state fidelity, yielding a positive semi-definite kernel suitable for kernel SVMs.
 
-**Feature Maps**  
+**Feature Maps**
 Implemented encodings include data reuploading with ZZ entanglement, Pauli rotation circuits with entangling topology, and IQP-style circuits with known classical hardness properties.
 
-**Baselines**  
+**Baselines**
 Classical comparators include RBF-SVM, One-Class SVM, and Isolation Forest, evaluated under identical train/test splits.
 
 ---
