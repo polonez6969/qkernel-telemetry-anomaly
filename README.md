@@ -118,19 +118,45 @@ A structured research agenda, including hypotheses and experimental designs, is 
 
 ---
 
-## Citation
+## References
 
-```bibtex
-@software{altman2025qkernel,
-  title={Quantum Kernel Telemetry Anomaly Detection},
-  author={Altman, Christopher},
-  year={2025},
-  url={https://github.com/christopher-altman/qkernel-telemetry-anomaly}
-}
-```
+1. C. Altman, J. Pykacz & R. Zapatrin, “Superpositional Quantum Network Topologies,” *International Journal of Theoretical Physics* 43, 2029–2041 (2004).
+   DOI: [10.1023/B:IJTP.0000049008.51567.ec](https://doi.org/10.1023/B:IJTP.0000049008.51567.ec) · arXiv: [q-bio/0311016](https://arxiv.org/abs/q-bio/0311016)
+
+2. C. Altman & R. Zapatrin, “Backpropagation in Adaptive Quantum Networks,” *International Journal of Theoretical Physics* 49, 2991–2997 (2010).  
+   DOI: [10.1007/s10773-009-0103-1](https://doi.org/10.1007/s10773-009-0103-1) · arXiv: [0903.4416](https://arxiv.org/abs/0903.4416)
+
 
 ---
 
+## Citations
+
+If you use or build on this work, please cite:
+
+> Quantum Kernel Telemetry Anomaly Detection
+
+```bibtex
+@software{altman2025qkernel,
+  author = {Altman, Christopher},
+  title = {Quantum Kernel Telemetry Anomaly Detection},
+  year = {2025},
+  url = {https://github.com/christopher-altman/qkernel-telemetry-anomaly}
+}
+```
+
 ## License
 
-MIT License. See `LICENSE` for details.
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## Contact
+
+- **Website:** [christopheraltman.com](https://christopheraltman.com)
+- **GitHub:** [github.com/christopher-altman](https://github.com/christopher-altman)
+- **Google Scholar:** [scholar.google.com/citations?user=tvwpCcgAAAAJ](https://scholar.google.com/citations?user=tvwpCcgAAAAJ)
+- **Email:** x@christopheraltman.com
+
+---
+
+*Christopher Altman (2025)*
