@@ -52,34 +52,39 @@ Anomalies in these systems often manifest as coherent drifts, impulsive deviatio
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20%5Cpsi(x)%3DU_%5Cphi(x)%5C,%7C0%5Crangle%5E%7B%5Cotimes%20n%7D">
-    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Cpsi(x)%3DU_%5Cphi(x)%5C,%7C0%5Crangle%5E%7B%5Cotimes%20n%7D" alt="equation">
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20%5Ccolor%7Bwhite%7D%20%5Cpsi(x)%3DU_%5Cphi(x)%7C0%5Crangle%5E%7B%5Cotimes%20n%7D">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20%5Cpsi(x)%3DU_%5Cphi(x)%7C0%5Crangle%5E%7B%5Cotimes%20n%7D" alt="psi(x) = U_phi(x)|0>^{⊗n}">
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20K(x,x')%3D%7C%5Clangle%5Cpsi(x)%7C%5Cpsi(x')%5Crangle%7C%5E2%20%5Cquad%20%5Ctext%7Bfidelity%20kernel%7D">
-    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20K(x,x')%3D%7C%5Clangle%5Cpsi(x)%7C%5Cpsi(x')%5Crangle%7C%5E2%20%5Cquad%20%5Ctext%7Bfidelity%20kernel%7D" alt="equation">
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20%5Ccolor%7Bwhite%7D%20K(x%2Cx%27)%3D%7C%5Clangle%5Cpsi(x)%7C%5Cpsi(x%27)%5Crangle%7C%5E2">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20K(x%2Cx%27)%3D%7C%5Clangle%5Cpsi(x)%7C%5Cpsi(x%27)%5Crangle%7C%5E2" alt="K(x,x') = |<psi(x)|psi(x')>|^2">
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20f(x)%3D%5Coperatorname%7Bsign%7D%5Cleft(%5Csum_i%5Calpha_i%20K(x_i,x)-%5Crho%5Cright)%20%5Cquad%20%5Ctext%7Bkernel%20SVM/one-class%20form%7D">
-    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20f(x)%3D%5Coperatorname%7Bsign%7D%5Cleft(%5Csum_i%5Calpha_i%20K(x_i,x)-%5Crho%5Cright)%20%5Cquad%20%5Ctext%7Bkernel%20SVM/one-class%20form%7D" alt="equation">
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20%5Ccolor%7Bwhite%7D%20f(x)%3D%5Coperatorname%7Bsign%7D%5Cleft(%5Csum_i%5Calpha_i%20K(x_i%2Cx)-%5Crho%5Cright)">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20f(x)%3D%5Coperatorname%7Bsign%7D%5Cleft(%5Csum_i%5Calpha_i%20K(x_i%2Cx)-%5Crho%5Cright)" alt="f(x) decision rule">
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20%5Ccolor%7Bwhite%7D%20K%3DV%5CLambda%20V%5E%5Ctop%2C%20%5Cquad%20%5Ctext%7Bdiagnostics%3A%20spectrum%2C%20conditioning%2C%20effective%20dimension%7D">
-    <img src="https://latex.codecogs.com/svg.image?%5Cdpi{120}%5CLarge%20K%3DV%5CLambda%20V%5E%5Ctop%2C%20%5Cquad%20%5Ctext%7Bdiagnostics%3A%20spectrum%2C%20conditioning%2C%20effective%20dimension%7D" alt="equation">
+      srcset="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20%5Ccolor%7Bwhite%7D%20K%3DV%5CLambda%20V%5E%5Ctop">
+    <img src="https://latex.codecogs.com/svg.image?%5Cdpi%7B120%7D%20%5CLarge%20K%3DV%5CLambda%20V%5E%5Ctop" alt="K = V Λ V^T">
   </picture>
 </p>
+
+<p align="center"><em>
+Kernel diagnostics: eigenspectrum of <strong>K</strong>, conditioning, and rank/effective dimension, stability vs feature-map depth and noise.
+</em></p>
+
 
 ---
 
@@ -87,12 +92,13 @@ Anomalies in these systems often manifest as coherent drifts, impulsive deviatio
 
 ```mermaid
 flowchart TD
-  A["Synthetic telemetry"] --> B["Classical features"]
-  B --> C["Quantum feature map"]
-  C --> D["Kernel matrix"]
-  D --> E["One class SVM"]
-  E --> F["ROC AUC diagnostics"]
+  A["Synthetic telemetry windows"] --> B["Classical feature summary"]
+  B --> C["Quantum feature map U_phi_x"]
+  C --> D["Kernel matrix Kij fidelity kernel"]
+  D --> E["Kernel method one class SVM"]
+  E --> F["ROC AUC and geometry diagnostics"]
 ```
+
 ---
 
 ## Method Summary
